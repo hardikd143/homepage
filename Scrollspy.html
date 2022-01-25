@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css  -->
+    <link href="./css/custom.css" rel="stylesheet" />
+    <link href="./css/Scrollspy.css" rel="stylesheet" />
+    <title>Scrollspy</title>
+    <!-- google fonts  -->
+    <link href="./css/fonts.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body
+    class="w-100 "
+  >
+  <div aria-label="breadcrumb" class="float-start w-100 px-1 px-lg-4 px-md-2 px-sm-1">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Scrollspy</li>
+    </ol>
+  </div>
+
+    <h4 class="fw-bold text-center my-3">Scrollspy example</h4>
+    <div class="container-fluid shadow-sm">
+      <div class="col-12 row">
+        <div class="col-6 col-lg-3 col-md-4 col-sm-5 pe-0">
+          <div
+            id="list-example"
+            class="bg-light flex-column align-items-center p-3 overflow-scroll"
+          >
+            <ul>
+              <li class="mb-2">
+                <a class="navbar-brand" href="./index.html">Home</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="#item-1">Item 1</a>
+                <ul>
+                  <li>
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                  </li>
+                  <li>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-link" href="#item-2">Item 2</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#item-3">Item 3</a>
+                <ul>
+                  <li>
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                  </li>
+                  <li>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-lg-9 col-md-8 col-sm-7 content p-2">
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#list-example"
+            data-bs-offset="0"
+            class="scrollspy-example"
+            tabindex="0"
+          >
+            <h4 id="item-1">Item 1</h4>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting.
+            </p>
+            <h5 id="item-1-1">Item 1-1</h5>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting.
+            </p>
+            <h5 id="item-1-2">Item 1-2</h5>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting.
+            </p>
+            <h4 id="item-2">Item 2</h4>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting.
+            </p>
+            <h4 id="item-3">Item 3</h4>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting.
+            </p>
+            <h5 id="item-3-1">Item 3-1</h5>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Quam, aspernatur! Deserunt commodi, dolore rem
+              accusantium in a adipisci asperiores obcaecat Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore animi dolorem praesentium repellat nam dignissimos natus at unde, quo quod.
+            </p>
+            <h5 id="item-3-2">Item 3-2</h5>
+            <p>
+              This is some placeholder content for the scrollspy page. Note that
+              as you scroll down the page, the appropriate navigation link is
+              highlighted. It's repeated throughout the component example. We
+              keep adding some more example copy here to emphasize the scrolling
+              and highlighting. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Quam, aspernatur! Deserunt commodi, dolore rem
+              accusantium in a adipisci asperiores obcaecat Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore animi dolorem praesentium repellat nam dignissimos natus at unde, quo quod.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery  -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- font awesome  -->
+    <script src="./js/fontawesome.js"></script>
+    <!-- bootstr' js  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>

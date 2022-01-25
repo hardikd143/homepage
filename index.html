@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/business.png" type="image/x-icon" />
+    <!-- google fonts  -->
+    <link href="./css/fonts.css" rel="stylesheet" />
+
+    <title>Market</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/flexslider.css" rel="stylesheet" />
+    <link href="./css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header section starts here  -->
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        bg-white
+        d-flex
+        flex-column
+        p-0
+      "
+    >
+      <div
+        class="
+          header-top
+          d-flex
+          justify-content-between
+          align-items-center
+          container-fluid
+          bg-gradient bg-clr
+          mt-0
+        "
+      >
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=example@gmail.com"
+          target="_blank"
+          >Market123@gmail.com</a
+        >
+        <a href="tel:+1409995708">+91 1409995748</a>
+      </div>
+      <div class="container-fluid main-nav">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/logo.png" style="max-width: 150px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul
+                class="dropdown-menu-dark dropdown-menu rounded-0"
+                style="transition: all 0.5s linear"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 1</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 2</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Scrollspy.html">Scrollspy</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Blogs">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <div
+            class="
+              btn-div
+              d-flex
+              flex-wrap
+              justify-content-start
+              align-items-start
+            "
+          >
+            <button
+              class="btn btn-bg mx-lg-1 mx-md-0 mx-sm-0 opensignup"
+              data-bs-toggle="modal"
+              data-bs-target="#signup"
+            >
+              CREATE FREE ACCOUNT
+            </button>
+            <button
+              class="btn btn-bg opensignin"
+              data-bs-toggle="modal"
+              data-bs-target="#signin"
+            >
+              SIGN IN
+            </button>
+            <button
+              class="btn mx-lg-1 bg-white mx-md-0 mx-sm-0 offcanvas-btn"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
+            >
+              <i class="fas fa-ellipsis-v"></i><span>side panel</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="breadcrumb"
+        class="
+          float-start
+          breadcrumb-nav
+          w-100
+          px-1 px-lg-4 px-md-2 px-sm-1
+          pt-2
+        "
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </div>
+    </nav>
+    <!-- header section ends here  -->
+    <!-- offcanvas starts here   -->
+
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h4 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          SideBar
+        </h4>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="text-center fs-5">Follow us on social media</p>
+        <img
+          class="col-10 col-lg-8 col-md-8 rounded-circle m-auto d-block"
+          src="./images/sidebar_img.jpg"
+          alt=""
+        />
+        <div
+          class="
+            socialsignin
+            d-flex
+            flex-column
+            justify-content-lg-around justify-content-center
+            align-items-center
+            mt-3
+          "
+        >
+          <a href="#" class="signinlinks col-9 my-2"
+            ><i class="fab fa-facebook-f"></i><span>Facebook</span></a
+          >
+          <a href="#" class="signinlinks col-9 my-2"
+            ><i class="fab fa-google"></i><span>Google</span></a
+          >
+          <a href="#" class="signinlinks col-9 my-2"
+            ><i class="fab fa-github"></i><span>Github</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas ends here   -->
+
+    <!-- sign up Modal starts here -->
+    <div
+      class="modal fade"
+      id="signup"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="staticBackdropLabel">
+              Create Free Account
+            </h3>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <div class="form-group d-flex">
+                <div class="form-floating mb-3 col-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="First name"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="floatingInput">First Name</label>
+                </div>
+                <div class="form-floating mb-3 col-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Last name"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="floatingInput">Last Name</label>
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="eMail"
+                  placeholder="name@example.com"
+                  autocomplete="off"
+                  required
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <label for="passWord" style="margin-right: 10px">Password </label
+              ><i class="fas fas fa-info-circle passtool"></i
+              ><span class="passtooltip py-1 px-2">Enter Password below</span>
+              <div class="input-group mb-3">
+                <div class="flex-grow-1">
+                  <input
+                    type="password"
+                    id="signUppassWord"
+                    class="form-control"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <span
+                  class="input-group-text showPassword"
+                  id="showsignupPassword"
+                  style="width: 50px; display: grid; place-items: center"
+                  ><i class="fas far fa-eye-slash" data-form="signup"></i
+                ></span>
+              </div>
+              <label for="ConfirmPassword">confirm Password</label>
+              <div class="flex-grow-1">
+                <input
+                  type="password"
+                  id="ConfirmpassWord"
+                  class="form-control"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="passwordvalidation mt-2 d-flex flex-column">
+                <span class="text-danger ConfirmPassWord">
+                  <span
+                    class="
+                      text-white
+                      bg-danger
+                      d-inline-flex
+                      justify-content-center
+                      align-content-center
+                      rounded-circle
+                    "
+                    style="line-height: 20px; width: 20px"
+                    >x</span
+                  >
+                  Password and Confirm password does not match</span
+                >
+                <span class="text-danger PassWordLength"
+                  ><span
+                    class="
+                      text-white
+                      bg-danger
+                      d-inline-flex
+                      justify-content-center
+                      align-content-center
+                      rounded-circle
+                    "
+                    style="line-height: 20px; width: 20px"
+                    >x</span
+                  >
+                  Must be at least 8 characters</span
+                >
+              </div>
+              <div
+                class="
+                  form-group
+                  d-flex
+                  flex-wrap
+                  justify-content-between
+                  flex-column flex-lg-row flex-md-column flex-sm-column
+                "
+              >
+                <div
+                  class="form-floating mt-1 col-lg-3 col-md-7 col-sm-8"
+                  style="margin-right: px"
+                >
+                  <input
+                    type="num"
+                    class="form-control"
+                    id="mobileNum"
+                    placeholder="mobile"
+                    autocomplete="off"
+                    maxlength="10"
+                    minlength="10"
+                    required
+                  />
+                  <label for="floatingInput">Mobile</label>
+                </div>
+
+                <div
+                  class="
+                    upload
+                    col-lg-8 col-md-7 col-sm-12
+                    mt-2 mt-lg-0 mt-md-2 mt-sm-3
+                  "
+                >
+                  <label for="profile-pic">Upload Profile Photo</label>
+                  <div class="input-group mb-3">
+                    <input
+                      type="file"
+                      class="form-control"
+                      id="profilePicture"
+                      accept="image/png, image/jpeg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-group d-flex justify-content-between">
+                <div class="col-12 col-lg-5 col-md-8 col-sm-12">
+                  <label for="city">Your City</label>
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label=".form-select-lg example"
+                    style="line-height: 28px"
+                  >
+                    <option value="ahmedabad" selected>Ahmedabad</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="chennai">Chennai</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="punjab">Punjab</option>
+                  </select>
+                </div>
+
+                <div class="gender col-lg-6 col-md-8 col-sm-12">
+                  <label for="gender">Gender</label>
+                  <div class="input-group">
+                    <div class="male">
+                      <input type="radio" name="gender" id="male" />
+                      <label for="male">Male</label>
+                    </div>
+                    <div class="female">
+                      <input type="radio" name="gender" id="female" />
+                      <label for="female">Female</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-check my-2 px-0 last-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="termsCheckbox"
+                />
+                <span
+                  class="
+                    customcheckbox
+                    border-1 border-black
+                    d-inline-block
+                    text-center
+                    rounded-2
+                    text-white
+                  "
+                  >✓</span
+                >
+                <label class="form-check-label" for="termsCheckbox">
+                  I accept terms and conditions
+                </label>
+              </div>
+              <div class="gotosignin text-center mt-4 mb-2">
+                <p>
+                  Already Have an Account ?
+                  <button
+                    class="btn-link"
+                    data-bs-dismiss="modal"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signin"
+                  >
+                    sign in
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-bg" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="submit" class="btn btn-bg submitBtn">
+                Sign Up
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- sign up modal ends here  -->
+    <!-- sign in modal starts here  -->
+    <div
+      class="modal fade"
+      id="signin"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="staticBackdropLabel">Login</h3>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="username"
+                  autocomplete="off"
+                  required
+                />
+                <label for="floatingInput">Username</label>
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="form-floating form-floating-group flex-grow-1">
+                  <input
+                    type="password"
+                    id="signInpassWord"
+                    class="form-control"
+                    placeholder="Password"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <span
+                  class="input-group-text showPassword"
+                  id="showsignInPassword"
+                  style="width: 50px; display: grid; place-items: center"
+                  ><i class="fas fa-eye-slash" data-form="signin"></i
+                ></span>
+              </div>
+              <div class="form-check my-2 px-0 last-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="rememberCheckbox"
+                />
+                <span
+                  class="
+                    customcheckbox
+                    border-1 border-black
+                    d-inline-block
+                    text-center
+                    rounded-2
+                    text-white
+                  "
+                  >✓</span
+                >
+                <label class="form-check-label" for="rememberCheckbox">
+                  Remember me
+                </label>
+              </div>
+              <div class="form-control py-2">
+                <h6 class="mt-3 text-center">Login with</h6>
+                <div
+                  class="
+                    socialsignin
+                    d-flex
+                    flex-column flex-lg-row
+                    justify-content-lg-around justify-content-center
+                    align-items-center
+                  "
+                >
+                  <a href="#" class="signinlinks col-8 col-lg-3 col-md-6"
+                    ><i class="fab fa-facebook-f"></i><span>Facebook</span></a
+                  >
+                  <a href="#" class="signinlinks col-8 col-lg-3 col-md-6"
+                    ><i class="fab fab fa-google"></i><span>Google</span></a
+                  >
+                  <a href="#" class="signinlinks col-8 col-lg-3 col-md-6"
+                    ><i class="fab fab fab fa-github"></i><span>Github</span></a
+                  >
+                </div>
+              </div>
+              <div class="gotosignup text-center mt-4 mb-2">
+                <p>
+                  Don't Have an Account ?
+                  <button
+                    class="btn-link"
+                    data-bs-dismiss="modal"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signup"
+                  >
+                    sign up
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-bg" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="submit" class="btn btn-bg submitBtn">
+                Sign In
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- sign in modal ends here -->
+
+    <!-- top section starts here  -->
+    <section class="top-section mt-3 mt-lg-0 mt-md-0 mt-sm-4">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-keyboard="true"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="./images/slider1.jpg"
+              class="d-block w-100"
+              alt="slider image"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img
+              src="./images/slider2.jpg"
+              class="d-block w-100"
+              alt="slider image"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="./images/slider3.jpg"
+              class="d-block w-100"
+              alt="slider image"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- top section ends here  -->
+
+    <!-- main content starts here-->
+    <section class="bg-clr">
+      <div class="container main d-flex flex-wrap-reverse py-5 p-sm-4 mt-0">
+        <div
+          class="
+            left-main
+            d-grid
+            align-items-center
+            col-lg-6 col-md-6 col-sm-12"
+        >
+          <div class="content ps-md-3">
+            <h1>Meet with us to success dream business</h1>
+            <p class="text-clr">
+              Making use of the respective industries and our team works Build
+              an online presence with the professional bootstrap 4 template.
+            </p>
+            <button class="btn btn-bg">Get Started</button>
+          </div>
+        </div>
+        <div class="right-main col-lg-6 col-md-6 col-sm-12">
+          <img class="shadow" src="./images/main.jpg" alt="" width="100%" />
+        </div>
+      </div>
+    </section>
+    <!-- main content ends here-->
+
+    <section>
+      <div
+        class="
+          container
+          my-3
+          py-4
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+        "
+      >
+        <h2 class="text-center">We provide solutions to grow your business</h2>
+        <p class="text-clr text-justify">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+          expedita quaerat, nesciunt architecto doloribus soluta repellat! Sit
+          sequi est aut.
+        </p>
+      </div>
+    </section>
+
+    <!-- cards section starts here  -->
+    <section class="bg-clr">
+      <div class="container-lg py-4 px-2">
+        <div class="row cards">
+          <div class="col-sm-4 col-md-6 col-lg-4">
+            <div class="card p-3 rounded-3 my-2">
+              <div class="card-back">
+                <img src="./images/s1.png" alt="" />
+              </div>
+              <div class="card-front">
+                <img src="./images/s1.png" class="card-img-top" alt="network" />
+                <div class="card-body p-0">
+                  <h3>Global Network</h3>
+                  <p class="card-text">
+                    Our goal is to help our companies maintain or achieve best
+                    in class positions. Build an online presence with this
+                    professional bootstrap 4 template.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-6 col-lg-4">
+            <div class="card p-3 rounded-3 my-2">
+              <div class="card-back">
+                <img src="./images/s2.png" alt="" />
+              </div>
+              <div class="card-front">
+                <img
+                  src="./images/s2.png"
+                  class="card-img-top"
+                  alt="benefits"
+                />
+                <div class="card-body p-0">
+                  <h3>High Benefits</h3>
+                  <p class="card-text">
+                    Our goal is to help our companies maintain or achieve best
+                    in class positions. Build an online presence with this
+                    professional bootstrap 4 template.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-6 col-lg-4">
+            <div class="card p-3 rounded-3 my-2">
+              <div class="card-back">
+                <img src="./images/s3.png" alt="" />
+              </div>
+              <div class="card-front">
+                <img
+                  src="./images/s3.png"
+                  class="card-img-top"
+                  alt="partnership"
+                />
+                <div class="card-body p-0">
+                  <h3>Partnership</h3>
+                  <p class="card-text">
+                    Our goal is to help our companies maintain or achieve best
+                    in class positions. Build an online presence with this
+                    professional bootstrap 4 template.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards section ends here  -->
+
+    <section class="py-3">
+      <div class="container">
+        <div class="card mb-3 m-auto w-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img
+                src="./images/business.png"
+                class="img-fluid w-100 shadow-sm"
+                alt="business"
+              />
+            </div>
+            <div class="col-md-6 d-grid align-items-center">
+              <div class="card-body">
+                <h3 class="card-title">Start your business easily with us</h3>
+                <p class="card-text text-clr mt-4 mb-4">
+                  Contray to popular , Lorem ipsum is not simply random text. It
+                  has roots in a piece of classical Latin literature from 45 BC,
+                  Making it over 2000 years old.
+                </p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Learn more >></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-clr py-3">
+      <div class="container">
+        <div class="card mb-3 m-auto w-100 px-2 bg-transparent">
+          <div class="row g-0 bg-transparent flex-wrap-reverse">
+            <div class="col-md-6 d-grid align-items-center bg-transparent">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Great features app that everyone Love
+                </h3>
+                <p class="card-text text-clr mb-4">
+                  Improve your user experience and boost sales through regular
+                  website optimisations.Contray to popular , Lorem ipsum is not
+                  simply random text. It has roots in a piece of classical Latin
+                  literature from 45 BC, Making it over 2000 years old.
+                </p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Learn more >></a
+                >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./images/mobile-app.png"
+                class="img-fluid w-100 shadow-sm"
+                alt="mobile-app"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- collapse section starts here  -->
+    <div
+      class="
+        container
+        collapse-section
+        d-flex
+        flex-column
+        justify-content-start
+        align-items-start
+        py-4
+      "
+    >
+      <h4 class="text-center w-100">Collapse Section</h4>
+      <button
+        class="btn btn-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse1"
+        aria-expanded="false"
+        aria-controls="collapse1"
+      >
+        collapsible 1
+      </button>
+      <div class="collapse" id="collapse1">
+        <div class="card card-body">
+          <h3>Heading of collapsible 1</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem provident temporibus accusamus doloribus tempora modi
+          officiis voluptatibus aperiam corporis magni.
+        </div>
+      </div>
+      <button
+        class="btn btn-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse2"
+        aria-expanded="false"
+        aria-controls="collapse2"
+      >
+        collapsible 2
+      </button>
+      <div class="collapse" id="collapse2">
+        <div class="card card-body">
+          <h3>Heading of collapsible 2</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem provident temporibus accusamus doloribus tempora modi
+          officiis voluptatibus aperiam corporis magni.
+        </div>
+      </div>
+      <button
+        class="btn btn-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse3"
+        aria-expanded="false"
+        aria-controls="collapse3"
+      >
+        collapsible 3
+      </button>
+      <div class="collapse" id="collapse3">
+        <div class="card card-body">
+          <h3>Heading of collapsible 3</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem provident temporibus accusamus doloribus tempora modi
+          officiis voluptatibus aperiam corporis magni.
+        </div>
+      </div>
+    </div>
+    <!-- collapse section ends here  -->
+    <!-- custom accordion starts here  -->
+    <section class="bg-clr">
+      <div class="container py-4">
+        <h3 class="text-center">Custom Accordion</h3>
+        <div class="customAccordion col-lg-7 col-md-9 col-sm-11 col-12 m-auto">
+          <div class="accorItem">
+            <div class="accorheader fs-3">
+              Accordion one <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="accorcontent">
+              <div class="contentinner">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                vitae ratione eius, deleniti reprehenderit cupiditate harum
+                laboriosam totam odio dicta ea ducimus doloribus quibusdam
+                minima architecto soluta, ad laudantium. Nisi vero rem excepturi
+                voluptas rerum repellendus hic eveniet dolorem provident qui in,
+                laudantium nesciunt illo blanditiis odit tenetur labore
+                necessitatibus!
+              </div>
+            </div>
+          </div>
+          <div class="accorItem">
+            <div class="accorheader fs-3">
+              Accordion two <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="accorcontent">
+              <div class="contentinner">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                vitae ratione eius, deleniti reprehenderit cupiditate harum
+                laboriosam totam odio dicta ea ducimus doloribus quibusdam
+                minima architecto soluta, ad laudantium. Nisi vero rem excepturi
+                voluptas rerum repellendus hic eveniet dolorem provident qui in,
+                laudantium nesciunt illo blanditiis odit tenetur labore
+                necessitatibus!
+              </div>
+            </div>
+          </div>
+          <div class="accorItem">
+            <div class="accorheader fs-3">
+              Accordion three <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="accorcontent">
+              <div class="contentinner">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                vitae ratione eius, deleniti reprehenderit cupiditate harum
+                laboriosam totam odio dicta ea ducimus doloribus quibusdam
+                minima architecto soluta, ad laudantium. Nisi vero rem excepturi
+                voluptas rerum repellendus hic eveniet dolorem provident qui in,
+                laudantium nesciunt illo blanditiis odit tenetur labore
+                necessitatibus!
+              </div>
+            </div>
+          </div>
+          <div class="accorItem">
+            <div class="accorheader fs-3">
+              Accordion four <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="accorcontent">
+              <div class="contentinner">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                vitae ratione eius, deleniti reprehenderit cupiditate harum
+                laboriosam totam odio dicta ea ducimus doloribus quibusdam
+                minima architecto soluta, ad laudantium. Nisi vero rem excepturi
+                voluptas rerum repellendus hic eveniet dolorem provident qui in,
+                laudantium nesciunt illo blanditiis odit tenetur labore
+                necessitatibus!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- custom accordion ends here  -->
+
+    <!-- vertical thumbnail slider starts here  -->
+    <section class="py-4">
+      <div class="container d-flex">
+        <!-- <h3 class="text-center">Slider with thumbnail</h3> -->
+        <div  id="mainflexslider">
+          <ul class="slides">
+            <li>
+              <img src="images/sliderimg1.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg2.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg3.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg4.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg5.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg6.jpg" />
+            </li>
+
+          </ul>
+        </div>
+        <div
+          id="mainflexthumbnail"
+          class="vertical-carousel flexslider carousel"
+        >
+          <ul class="slides">
+            <li>
+              <img src="images/sliderimg1.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg2.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg3.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg4.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg5.jpg" />
+            </li>
+            <li>
+              <img src="images/sliderimg6.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- vertical thumbnail slider ends here  -->
+
+    <!-- custom tabs starts here  -->
+    <section>
+      <div class="container py-4">
+        <h3 class="text-center">Custom Tabs</h3>
+
+        <div class="customTab col-lg-8 col-md-9 col-sm-12 col-12 m-auto">
+          <ul class="tabs d-flex flex-row p-0 m-0">
+            <li
+              class="
+                tabLink
+                col-sm-3 col-lg-2 col-md-3 col-3
+                text-center
+                tabactive
+              "
+              data-bs-target="#tabcontent1"
+            >
+              Tab 1
+            </li>
+            <li
+              class="tabLink col-sm-3 col-lg-2 col-md-3 col-3 text-center"
+              data-bs-target="#tabcontent2"
+            >
+              Tab 2
+            </li>
+            <li
+              class="tabLink col-sm-3 col-lg-2 col-md-3 col-3 text-center"
+              data-bs-target="#tabcontent3"
+            >
+              Tab 3
+            </li>
+            <li
+              class="tabLink col-sm-3 col-lg-2 col-md-3 col-3 text-center"
+              data-bs-target="#tabcontent4"
+            >
+              Tab 4
+            </li>
+          </ul>
+          <div class="main-tabContent p-3 m-0">
+            <div class="tabContent" id="tabcontent1">
+              <h6>Tab 1 content</h6>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+              in tenetur quidem dolorum harum ratione maxime excepturi! Porro
+              iure tenetur earum? Voluptatem ipsam quis similique, incidunt,
+              delectus repudiandae nobis
+            </div>
+            <div class="tabContent" id="tabcontent2">
+              <h6>Tab 2 content</h6>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+              in tenetur quidem dolorum harum ratione maxime excepturi! Porro
+              iure tenetur earum?
+            </div>
+            <div class="tabContent" id="tabcontent3">
+              <h6>Tab 3 content</h6>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+              in tenetur quidem dolorum harum ratione maxime excepturi! Porro
+              iure tenetur earum? Voluptatem ipsam quis similique, incidunt,
+              delectus repudiandae nobis illum modi quas nam, tenetur ex ratione
+              tempora cupiditate cum
+            </div>
+            <div class="tabContent" id="tabcontent4">
+              <h6>Tab 4 content</h6>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+              in tenetur quidem dolorum harum ratione maxime excepturi! Porro
+              iure tenetur earum? Voluptatem ipsam quis similique, incidunt,
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- custom tabs ends here  -->
+    <!-- ready section starts here -->
+    <section class="readySection py-3">
+      <div class="container py-5">
+        <h2 class="text-center">Ready to get started ?</h2>
+        <div class="btns-group text-center">
+          <a class="btn py-2 px-3 m-2" href="#">Book a Demo</a>
+          <a class="btn py-2 px-3 m-2" href="#">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <!-- ready section ends here -->
+
+    <!-- companies section starts here -->
+    <section style="background: #fafafa">
+      <div class="container py-5">
+        <h1 class="text-center">
+          Over 16,000 Companies trust our amazing product
+        </h1>
+        <div class="companies-img m-auto simpleflexslider carousel">
+          <ul class="slides">
+            <li>
+              <img src="./images/p1.png" alt="" />
+            </li>
+            <li class="img1">
+              <img src="./images/p2.png" alt="" />
+            </li>
+            <li class="img1">
+              <img src="./images/p3.png" alt="" />
+            </li>
+            <li class="img1">
+              <img src="./images/p4.png" alt="" />
+            </li>
+
+            <li class="img1">
+              <img src="./images/p5.png" alt="" />
+            </li>
+            <li class="img1">
+              <img src="./images/p6.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- companies section ends here -->
+    <!-- footer section starts here  -->
+    <footer
+      class="
+        container
+        w-100
+        d-flex
+        flex-column flex-lg-row flex-md-column flex-sm-column
+      "
+    >
+      <div class="footer-left col-lg-6 col-md-12 col-sm-12">
+        <h5 class="fw-bold text-blue">Contact Information</h5>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Address </span>:
+          <a
+            href="https://goo.gl/maps/czTcNdUupBvWDxjP7"
+            class="text-clr"
+            target="_blank"
+          >
+            #135 block, Barnard St. Brooklyn , NY 10036, USA</a
+          >
+        </p>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Phone </span>
+
+          :<a href="tel:+404112289" target="_blank" class="text-clr"
+            >+404-11-22-89</a
+          >
+        </p>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Email </span>:
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=example@gmail.com"
+            target="_blank"
+            class="text-clr"
+          >
+            example@gmail.com
+          </a>
+        </p>
+        <div class="social-media d-flex">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="
+          footer-right
+          d-flex
+          flex-wrap
+          col-lg-6 col-md-12 col-sm-12
+          mt-md-2 mt-sm-2
+        "
+      >
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Blog Posts</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Support</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Learning center</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Product</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Market</a></li>
+            <li><a href="#">VIP</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Admin UI</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends here  -->
+
+    <!-- scroll-btn  -->
+    <div class="scroll-btn">
+      <i class="fa fa-angle-up"></i>
+    </div>
+
+    <!-- Scripts  -->
+    <!-- fontawesome  -->
+    <script src="./js/fontawesome.js" crossorigin="anonymous"></script>
+
+    <!-- jquery  -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.flexslider.js"></script>
+    <!-- custom js  -->
+    <script src="./js/script.js"></script>
+
+    <!-- bootstr' js  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- bootstrap js  -->
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

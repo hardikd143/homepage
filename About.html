@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/about-content.jpg" type="image/x-icon" />
+
+    <!-- custom css  -->
+    <link href="./css/custom.css" rel="stylesheet" />
+    <link href="./css/About.css" rel="stylesheet" />
+
+    <title>About Us</title>
+    <!-- google fonts  -->
+    <link href="./css/fonts.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header section starts here  -->
+    <nav
+      class=" navbar navbar-expand-lg navbar-light
+      bg-white
+      d-flex
+      flex-column
+      p-0"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/logo.png" style="max-width: 150px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul
+                class="dropdown-menu-dark dropdown-menu rounded-0"
+                style="transition: all 0.5s linear"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 1</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 2</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;page 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Scrollspy.html">Scrollspy</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Blogs">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        aria-label="breadcrumb"
+        class="float-start w-100 px-1 px-lg-4 px-md-2 px-sm-1"
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </div>
+    </nav>
+    <!-- header section ends here  -->
+    <!-- main content starts here  -->
+    <div class="container-fluid main-div">
+      <div class="container h-100">
+        <div
+          class="
+            main-content
+            text-white
+            col-lg-4 col-md-6 col-sm-10
+            float-start
+            position-relative
+            top-50
+          "
+        >
+          <h2>
+            We are true to ourselves, and commit to always perform at our best.
+          </h2>
+          <p>
+            We believe that we are outstanding. Not because we say it, but
+            because we sork hard at it, We are dedicated, commited and focused.
+            We believe that every person will reach their personal best and
+            overcome any challenge though a shared culture and ethos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- main content ends here  -->
+    <!-- first tab section starts here   -->
+
+    <div class="container-fluid py-3 px-2 px-lg-3 px-md-1 px-sm-0 bg-clr">
+      <h3>First Tab Section</h3>
+      <div class="nav nav-tabs" id="firsttab" role="tablist">
+        <button
+          class="nav-link active"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-home"
+          type="button"
+          role="tab"
+          aria-controls="nav-home"
+          aria-selected="true"
+        >
+          Home
+        </button>
+        <button
+          class="nav-link"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-profile"
+          type="button"
+          role="tab"
+          aria-controls="nav-profile"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+        <button
+          class="nav-link"
+          id="contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-contact"
+          type="button"
+          role="tab"
+          aria-controls="nav-contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+      </div>
+      <div
+        class="tab-content p-2 bg-white text-dark rounded-bottom"
+        id="firsttabContent"
+      >
+        <div
+          class="tab-pane fade show active"
+          id="content-tab-home"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+        <div
+          class="tab-pane fade"
+          id="content-tab-profile"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+        <div
+          class="tab-pane fade"
+          id="content-tab-contact"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+      </div>
+    </div>
+    <!-- first tab section ends here   -->
+
+    <!-- accordion  -->
+    <section class="col-11 col-lg-6 col-md-8 col-sm-11 m-auto my-4">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Accordion Item #1
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapsing"
+            aria-labelledby="headingOne"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+              molestias quia labore nesciunt, qui incidunt veritatis consequatur
+              numquam illo sunt animi eaque dolor aliquid, ex laudantium
+              voluptatum iusto? Vero consequuntur culpa odit eius quam, ipsum
+              repudiandae laudantium nihil rerum? Rem harum praesentium illo
+              nulla, aspernatur aut repellendus expedita quidem laboriosam.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              Accordion Item #2
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingTwo"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+              molestias quia labore nesciunt, qui incidunt veritatis consequatur
+              numquam illo sunt animi eaque dolor aliquid, ex laudantium
+              voluptatum iusto? Vero consequuntur culpa odit eius quam, ipsum
+              repudiandae laudantium nihil rerum? Rem harum praesentium illo
+              nulla, aspernatur aut repellendus expedita quidem laboriosam.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapsing"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+              molestias quia labore nesciunt, qui incidunt veritatis consequatur
+              numquam illo sunt animi eaque dolor aliquid, ex laudantium
+              voluptatum iusto? Vero consequuntur culpa odit eius quam, ipsum
+              repudiandae laudantium nihil rerum? Rem harum praesentium illo
+              nulla, aspernatur aut repellendus expedita quidem laboriosam.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info section -->
+
+    <section class="bg-clr info py-3">
+      <div class="container-xl">
+        <h3 class="my-2">We build great brand with passion & love</h3>
+        <div class="container-fluid row d-flex justify-content-center">
+          <div class="info-cards col-lg-4 col-md-9 col-sm-11 p-2">
+            <div class="info-num shadow text-blue my-3">15k +</div>
+            <div class="info-content">
+              <h4>Active Reward Programs</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum fugit alias architecto rerum reiciendis blanditiis
+                repudiandae est adipisci?
+              </p>
+            </div>
+          </div>
+          <div class="info-cards col-lg-4 col-md-9 col-sm-11 p-2">
+            <div class="info-num shadow text-blue my-3">40M +</div>
+            <div class="info-content">
+              <h4>Participating Members</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum fugit alias architecto rerum reiciendis blanditiis
+                repudiandae est adipisci?
+              </p>
+            </div>
+          </div>
+          <div class="info-cards col-lg-4 col-md-9 col-sm-11 p-2">
+            <div class="info-num shadow text-blue my-3">100 +</div>
+            <div class="info-content">
+              <h4>Partner Agencies</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum fugit alias architecto rerum reiciendis blanditiis
+                repudiandae est adipisci?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container d-flex justify-content-center py-3 pt-5">
+      <div class="inner-content col-11 col-lg-6 col-md-8 col-sm-10">
+        <h2 class="text-center">Market solutions for you business</h2>
+        <p class="text-blue text-center">
+          Build an onlne presence with this professional bootstrap 5 landing
+          page.
+        </p>
+
+        <div class="img">
+          <img
+            src="./images/about-content.jpg"
+            class="rounded-3 w-100"
+            alt=""
+          />
+          <div class="play bg-transparent">
+            <button
+              class="btn playbtn shadow rounded-circle bg-white"
+              id="iframeopen"
+            >
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- iframe modal starts here  -->
+        <div class="iframemodal w-100 position-fixed top-0 start-0">
+          <div class="iframemodalinner col-12 col-lg-6 col-md-8 col-sm-11">
+            <button class="iframeclose">x</button>
+            <iframe
+              src="https://www.youtube.com/embed/sKgD8rZl-cQ"
+              class="w-100"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <!-- iframe modal ends here  -->
+
+        <div class="content text-blue py-4">
+          <h3 class="mb-3">A Brief History</h3>
+          <p class="fw-bold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            nesciunt neque illum autem porro quia quas minus, suscipit soluta
+            quos veritatis ut. Amet maiores vero aliquam labore veritatis
+            corrupti id omnis inventore nam provident pariatur, aut, vitae
+            impedit, optio quasi ut nobis se
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- secnnd tab section starts here   -->
+
+    <div
+      class="
+        container-fluid
+        py-3
+        pb-4
+        px-2 px-lg-3 px-md-1 px-sm-0
+        shadow-inset
+      "
+    >
+      <h3>Second Tab Section</h3>
+      <div class="nav nav-tabs" id="secondtab" role="tablist">
+        <button
+          class="nav-link active"
+          id="html-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-home2"
+          type="button"
+          role="tab"
+          aria-controls="nav-home2"
+          aria-selected="true"
+        >
+          Home
+        </button>
+        <button
+          class="nav-link"
+          id="css-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-profile2"
+          type="button"
+          role="tab"
+          aria-controls="nav-profile2"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+        <button
+          class="nav-link"
+          id="js-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-contact2"
+          type="button"
+          role="tab"
+          aria-controls="nav-contact2"
+          aria-selected="false"
+        >
+          contact
+        </button>
+        <button
+          class="nav-link"
+          id="js-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#content-tab-blog2"
+          type="button"
+          role="tab"
+          aria-controls="nav-blog2"
+          aria-selected="false"
+        >
+          Blog
+        </button>
+      </div>
+      <div
+        class="tab-content p-2 bg-white text-dark rounded-bottom"
+        id="secondtabContent"
+      >
+        <div
+          class="tab-pane fade show active"
+          id="content-tab-home2"
+          role="tabpanel"
+          aria-labelledby="home-tab2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+        <div
+          class="tab-pane fade"
+          id="content-tab-profile2"
+          role="tabpanel"
+          aria-labelledby="profile-tab2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+        <div
+          class="tab-pane fade"
+          id="content-tab-contact2"
+          role="tabpanel"
+          aria-labelledby="contact-tab2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+        <div
+          class="tab-pane fade"
+          id="content-tab-blog2"
+          role="tabpanel"
+          aria-labelledby="blog-tab2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, vel accusantium repudiandae saepe non delectus aperiam
+          explicabo hic molestiae, officia voluptate, error ullam minima
+          assumenda commodi sequi id odio corporis! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis possimus dolorum omnis
+          facilis accusamus esse excepturi expedita, ullam quasi ab!
+        </div>
+      </div>
+    </div>
+    <!-- second tab section ends here   -->
+
+    <!-- progress bar section starts here -->
+    <section class="bg-clr py-4">
+      <div class="container">
+        <h2 class="text-center mb-3">Progress Bars Section</h2>
+        <div class="progress-inner col-lg-7 col-md-8 col-sm-12 m-auto">
+          <div class="progress mb-3" style="height: 20px">
+            <div
+              class="progress-bar progress-bar-striped progress-bar- bg-danger"
+              role="progressbar"
+              aria-valuenow="40"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 40%"
+            >
+              40%
+            </div>
+          </div>
+
+          <div class="progress mb-3" style="height: 20px">
+            <div
+              class="
+                progress-bar progress-bar-striped progress-bar-animated
+                bg-warning
+              "
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 70%"
+            >
+              70%
+            </div>
+          </div>
+          <div class="progress mb-3" style="height: 20px">
+            <div
+              class="
+                progress-bar progress-bar-striped progress-bar-animated
+                bg-success
+              "
+              role="progressbar"
+              aria-valuenow="20"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 20%"
+            >
+              20%
+            </div>
+          </div>
+          <div class="progress mb-3" style="height: 20px">
+            <div
+              class="
+                progress-bar progress-bar-striped progress-bar-animated
+                bg-dark
+              "
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- progress bar section ends here -->
+
+    <div class="container contact d-flex justify-content-center py-4">
+      <div class="contact-inner col-lg-7 col-md-9 col-sm-11 text-center">
+        <h1>We Would Love to Talk</h1>
+        <p class="text-blue fw-bold">
+          We love conversations, and would love to have one with you! whether
+          you're looking for a speaker, an awesome career, or want to get
+          started with a rewards program, we would love hear from you
+        </p>
+        <div class="btns-group text-center">
+          <a class="btn py-2 px-3 m-1" href="#">Book a Demo</a>
+          <a class="btn py-2 px-3 m-1" href="#">Get in touch</a>
+        </div>
+      </div>
+    </div>
+    <!-- show hide paragraph starts here -->
+    <section class="jquerySection">
+      <div class="container-lg">
+        <div class="showhide p-3">
+          <button class="btn showhidebtn">Hide paragraph</button>
+          <p class="showhidepara border-1 border-dark pt-3">
+            <b>This paragraph will hide when above button is clicked</b> Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            labore itaque, a quam totam, soluta illum nemo iusto expedita
+            deserunt obcaecati maiores dolorem. Facere voluptatum nemo ea ut,
+            minima voluptate officiis dignissimos dolorem placeat quo. Tempore
+            perferendis numquam corrupti consequatur.
+          </p>
+        </div>
+        <div class="toggleclass p-2">
+          <button class="addclasspara btn">Add class</button>
+          <button class="remclasspara btn">Remove Class</button>
+          <p class="toggleclasspara p-2 rounded-3 mb-0 mt-2">
+            <b
+              >when user click Add Class button the class named "togglepara"
+              added to this paragraph which has blue color and black
+              background</b
+            ><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus
+            facere soluta et quo illum amet repellat, vel in laboriosam velit
+            eius corporis praesentium delectus expedita minima deserunt
+            dignissimos, sapiente autem alias nulla itaque accusantium odit. Ut
+            fuga autem repellat.Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eos, natus facere soluta et quo illum amet
+            repellat, vel in laboriosam velit eius corporis praesentium delectus
+            expedita minima deserunt dignissimos, sapiente autem alias nulla
+            itaque accusantium odit. Ut fuga autem repellat.
+          </p>
+        </div>
+        <button class="btn openCalc my-3">Open Calculator</button>
+        <div class="container-fluid calc position-fixed">
+          <div class="container calculation bg-white py-3 py-2 px-lg-3 px-md-3">
+            <div class="calc-header d-flex">
+              <h3 class="w-100 clearfix" style="line-height: 35px">
+                Calculator
+              </h3>
+              <button class="float-end closeCalc">
+                <i class="fas fas fa-times"></i>
+              </button>
+            </div>
+            <form class="simplecalc">
+              <div class="inputs d-flex justify-content-around">
+                <div class="form-floating col-6 col-lg-4 col-md-4 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="num1"
+                    placeholder="number 2"
+                  />
+                  <label for="num1">Number 1</label>
+                </div>
+                <div class="form-floating col-6 col-lg-4 col-md-4 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="num2"
+                    placeholder="number 1"
+                  />
+                  <label for="num2">Number 2</label>
+                </div>
+              </div>
+              <h4 class="mb-0 mt-2">Outputs</h4>
+              <div class="outputs d-flex flex-wrap mt-0">
+                <div class="form-floating col-6 col-lg-3 col-md-3 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="addition"
+                    placeholder="addition"
+                    readonly
+                  />
+                  <label for="addition">Addition</label>
+                </div>
+                <div class="form-floating col-6 col-lg-3 col-md-3 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="substraction"
+                    placeholder="substraction"
+                    readonly
+                  />
+                  <label for="substraction">Substracton</label>
+                </div>
+                <div class="form-floating col-6 col-lg-3 col-md-3 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="division"
+                    placeholder="division"
+                    readonly
+                  />
+                  <label for="division">Division</label>
+                </div>
+                <div class="form-floating col-6 col-lg-3 col-md-3 col-sm-6">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="multiplication"
+                    placeholder="multiplication"
+                    readonly
+                  />
+                  <label for="multiplication">Multiplication</label>
+                </div>
+              </div>
+            </form>
+            <p class="info my-1"><i class="fas fas fa-info-circle me-1"></i>double click on output to copy its value</p>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <!-- show hide paragraph ends here -->
+
+    <!-- newsletter section starts here  -->
+    <div class="container-lg text-center py-4 my-3 newsletter">
+      <i class="fas far fa-envelope display-6"></i>
+      <h1>Get Email updates</h1>
+      <p>Subscribe and Stay tuned for Latest News</p>
+      <div class="newsletter-form container-sm">
+        <form>
+          <input
+            type="email"
+            class="col-12 col-lg-6 col-md-8 col-sm-8 my-1"
+            name="newsemail"
+            placeholder="Your Email"
+            id=""
+            autocomplete="off"
+            required
+          />
+          <button type="submit" class="col-12 col-lg-2 col-md-6 col-sm-8 my-1">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="newssubscribed col-12 col-lg-5 col-md-7 col-sm-11 pt-2 px-2 pb-2 bg-white">
+      <button class="subscribedclose"><i class="fas fa-times"></i></button>
+      <h4 class="text-center">Thank You for subscribing our newsletter
+        <img src="https://img.icons8.com/color/35/000000/confetti.png"/>
+      </h4>
+      <p class="text-center">Now you can get all our updates and latest news at <span class="news-email fw-bold"></span> </p>
+    </div> -->
+
+    <!-- newsletter section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer
+      class="
+        container
+        w-100
+        d-flex
+        flex-column flex-lg-row flex-md-column flex-sm-column
+      "
+    >
+      <div class="footer-left col-lg-6 col-md-12 col-sm-12">
+        <h5 class="fw-bold text-blue">Contact Information</h5>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Address </span>:
+          <a
+            href="https://goo.gl/maps/czTcNdUupBvWDxjP7"
+            class="text-clr"
+            target="_blank"
+          >
+            #135 block, Barnard St. Brooklyn , NY 10036, USA</a
+          >
+        </p>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Phone </span>
+
+          :<a href="tel:+404112289" target="_blank" class="text-clr"
+            >+404-11-22-89</a
+          >
+        </p>
+        <p class="text-clr m-1">
+          <span class="fw-bold">Email </span>:
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=example@gmail.com"
+            target="_blank"
+            class="text-clr"
+          >
+            example@gmail.com
+          </a>
+        </p>
+        <div class="social-media d-flex">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="
+          footer-right
+          d-flex
+          flex-wrap
+          col-lg-6 col-md-12 col-sm-12
+          mt-md-2 mt-sm-2
+        "
+      >
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Blog Posts</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Support</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Learning center</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5 class="fw-bold text-blue">Product</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Market</a></li>
+            <li><a href="#">VIP</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Admin UI</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends here  -->
+
+    <!-- Scripts  -->
+    <!-- fontawesome  -->
+    <script src="./js/fontawesome.js" crossorigin="anonymous"></script>
+
+    <!-- jquery  -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstr' js  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom js  -->
+    <script src="./js/script.js"></script>
+    <script src="./js/about.js"></script>
+  </body>
+</html>

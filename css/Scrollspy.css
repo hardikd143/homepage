@@ -1,0 +1,26 @@
+a{
+    color: black !important;
+    border-radius: 7px;
+}
+ul{
+    width: 100%;
+    padding: 0 !important;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.scrollspy-example{
+    position: relative;
+    height: 300px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+#list-example .active{
+    color: white !important;
+    background: rgb(56, 56, 56) !important;
+}
+.content{
+    display: grid;
+    place-items: center;
+    box-shadow: inset -4px 0 13px rgb(192, 192, 192);
+}
